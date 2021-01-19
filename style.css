@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "EB Garamond", serif;
+}
+
+header {
+  background-color: rgba(39, 29, 34, 0.3);
+  width: 100%;
+}
+
+#heading-container {
+  font-size: 3rem;
+  text-align: center;
+  margin: auto;
+  line-height: 1;
+  color: rgb(240, 248, 255);
+  font-weight: bold;
+  text-shadow: 2px 2px 17px black;
+  padding: 50px;
+}
+
+main {
+  background-color: antiquewhite;
+  position: relative;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 30px 4%;
+  width: 60%;
+}
+
+aside {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  padding: 20px;
+  width: 30%;
+}
+
+#img-aside {
+  width: 30vw;
+}
+
+article {
+  padding: 30px 4%;
+  width: 90%;
+}
+
+figure {
+  text-align: right;
+  padding-right: 4%;
+}
+
+#img-container {
+  background-color: #f8f9fa;
+  width: min-content;
+  display: inline-block;
+  float: right;
+  border: 2px double lightgray;
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 10px;
+}
+
+#img-article {
+  width: 15vw;
+}
+h4 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover {
+  color: brown;
+}
+
+footer {
+  padding: 20px 10%;
+  width: 80%;
+  height: 23vh;
+  font-size: 1.2rem;
+  line-height: 2;
+  background-color: rgba(39, 29, 34, 0.3);
+  color: aliceblue;
+}
+
+#img-footer {
+  width: 15vw;
+  float: left;
+  display: inline-block;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
